@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>   
     body {
       margin: 0;
@@ -91,9 +92,27 @@
     <h3 id="han"> Hình ảnh nhóm </h3>
 
     <p>
-      <img align="left" height="100" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg">
-      <img align="right" height="100" src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwZm9vZCUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80">
-       <p align="center"><img height="100" src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"></p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                 <img align="left" height="100" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg">
+      </button>
+      <div class="modal" id="myModal">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <!-- Modal Header -->
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <!-- Modal body -->
+               <div class="modal-body">
+                     <img width=70% src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg">
+               </div>
+               <!-- Modal footer -->
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
     </p>
 
     <h3 id="bbbc"> <b>Biên bảng</b></h3>
