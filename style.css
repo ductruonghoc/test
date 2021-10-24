@@ -8,12 +8,12 @@ body {
 .navtop {
   width:100%;
   height: 30px;
+  bottom: 30px;
   background-color: #ff308f;
   position:fixed;
 }
 
 .content {
-  margin-top: 30px;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 10%;
