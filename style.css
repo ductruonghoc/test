@@ -16,7 +16,7 @@ body {
   margin-right: 30%;
   margin-bottom: 10%;
   background-color:#ffffff;
-  height: 90%;
+  min-height: 90%;
   width: 40%;
   min-width: 320 px;
 }
