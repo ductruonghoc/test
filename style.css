@@ -3,12 +3,19 @@ body {
   background-size: 100% 100%;  
 }
 
-navtop {
+.navtop {
   width:100%;
   height: 10%;
   margin:0px;
   background-color: #ff308f;
   position:fixed;
+}
+
+.content {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
   
