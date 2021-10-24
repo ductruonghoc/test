@@ -19,8 +19,8 @@ body {
   margin-bottom: 10%;
   background-color:#ffffff;
   min-height: 90%;
-  width: 40%;
-  min-width: 320 px;
+  max-width: 40%;
+  min-width: 326px;
   position: relative;
 }
 
